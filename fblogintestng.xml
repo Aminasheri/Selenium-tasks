@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="email"  value="ami@gmail.com"></parameter>
+	  <parameter name="passwd"   value="1234567"></parameter>
+    <classes>
+      <class name="testNGpackage.Fblogintestng"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
